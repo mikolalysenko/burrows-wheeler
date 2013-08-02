@@ -1,0 +1,37 @@
+{
+  "name": "burrows-wheeler",
+  "version": "0.0.0",
+  "description": "Naive Burrows-Wheeler transform implementation",
+  "main": "bwt.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ndarray": "~1.0.5",
+    "ndarray-ops": "~1.1.1",
+    "ndarray-sort": "~0.0.0",
+    "ndarray-string": "~0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/burrows-wheeler.git"
+  },
+  "keywords": [
+    "burrows",
+    "wheeler",
+    "transform",
+    "bwt",
+    "bzip"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "5391d25e838c16b3f6f1438947bdf790487a68be",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/burrows-wheeler/issues"
+  }
+}
