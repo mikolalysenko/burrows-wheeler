@@ -11,6 +11,7 @@ var bwt = require("burrows-wheeler")
 var y = bwt(1, "banana")
 console.log(y)
 
+//Inverse transform
 var z = bwt(-1, y)
 console.log(z)
 ```
